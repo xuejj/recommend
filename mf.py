@@ -1,3 +1,4 @@
+#http://katbailey.github.io/post/matrix-factorization-with-tensorflow/
 # Initialize the matrix factors from random normals with mean 0. W will
 # represent users and H will represent items.
 W = tf.Variable(tf.truncated_normal([num_users, rank], stddev=0.2, mean=0), name="users")
